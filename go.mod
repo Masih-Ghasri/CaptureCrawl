@@ -2,7 +2,10 @@ module github.com/Masih-Ghasri/CaptureCrawl
 
 go 1.22
 
-require github.com/spf13/cobra v1.8.1
+require (
+	github.com/spf13/cobra v1.8.1
+	github.com/temoto/robotstxt v1.1.2
+)
 
 require (
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
